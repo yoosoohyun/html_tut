@@ -4,7 +4,7 @@
 
 // 변수 선언부
 var hap = 0;
-var gop = 0;
+var gob = 0;
 var calType = '';
 
 // 함수 선언부
@@ -17,6 +17,10 @@ var calType = '';
  * }
  *
  * */
+
+function test(){
+
+}
 
 function tenHap(){
 
@@ -34,7 +38,7 @@ function gugudan(){
     for( var j=1; j<10; j++ ){
 
       gob = i * j;
-      console.log( i + 'x' + j + '=' + gob);
+      console.log( i + 'x' + j + '=' + gob );
 
     }
 
@@ -43,6 +47,7 @@ function gugudan(){
 }
 
 calType = '곱';
+
 // 실행부
 if(calType == '합'){
 
@@ -53,4 +58,7 @@ if(calType == '합'){
   gugudan();
 
 }
+
+
+
 
