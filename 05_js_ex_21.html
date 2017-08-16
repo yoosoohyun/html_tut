@@ -131,17 +131,17 @@
     }
 
     .wrap{
-      display:none;
+      display:block;
     }
 
-    .loading{
-      width:128px;
-      height:62px;
-      position:absolute;
-      top:50%;
-      left:50%;
-      margin:-31px 0 0 -64px;
-    }
+    /*.loading{*/
+      /*width:128px;*/
+      /*height:62px;*/
+      /*position:absolute;*/
+      /*top:50%;*/
+      /*left:50%;*/
+      /*margin:-31px 0 0 -64px;*/
+    /*}*/
 
 
   </style>
@@ -366,14 +366,14 @@
        * jQuery 진입점에 포함시키지 않음
        * */
 
-      $(window).on('load', function(){
-
-        // hide() : 화면에 보이는 요소를 보이지 않게 해주는 함수
-        $('.loading').hide();
-        // show() : 화면에 보이지 않는 요소를 보이게 해주는 함수
-        $('.wrap').show();
-
-      });
+//      $(window).on('load', function(){
+//
+//        // hide() : 화면에 보이는 요소를 보이지 않게 해주는 함수
+//        $('.loading').hide();
+//        // show() : 화면에 보이지 않는 요소를 보이게 해주는 함수
+//        $('.wrap').show();
+//
+//      });
 
 
 
@@ -383,9 +383,9 @@
 </head>
 <body>
 
-<div class="loading">
-  <img src="images/loading.gif" />
-</div>
+<!--<div class="loading">-->
+  <!--<img src="images/loading.gif" />-->
+<!--</div>-->
 
 <div class="wrap">
 
