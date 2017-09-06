@@ -44,4 +44,5 @@
     console.log( student[j] + '학생의 평균 점수는 ' + Math.round( avg[j] ) + '점 입니다.' ); //Math.round = 반올림함수
   }
 
+
 })();
